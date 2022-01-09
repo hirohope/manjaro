@@ -123,6 +123,41 @@ rm -rf xfce4-terminal/
 
 # Visual Studio Code
 
+settings.json
+```json
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Dracula",
+    "editor.rulers": [79,100],
+    "[*]": {
+        "indent_style": "space",
+        "editor.detectIndentation": false
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": null,
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": true,
+    "files.associations": {
+        ".pls": "SQL"
+    },
+    "workbench.editor.enablePreview": false,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "trailing-spaces.trimOnSave": true
+}
+```
+
 Plugins:
 
 - Docker
